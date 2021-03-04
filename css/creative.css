@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v5.1.6 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -10705,9 +10705,41 @@ header.masthead h1 {
   }
 }
 
-header.masthead iframe {
+header.masthead .iframe {
   opacity: .8;
-  margin-top: 20px;
+  margin-top: 0;
+  height: 540px;
+}
+
+@media screen and (max-width: 1200px) {
+  header.masthead .iframe {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header.masthead .iframe {
+    margin-top: 20px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  header.masthead .iframe {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  header.masthead .iframe {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  header.masthead .iframe {
+    height: 740px;
+  }
 }
 
 #portfolio .container-fluid {
